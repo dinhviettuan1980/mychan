@@ -17,11 +17,15 @@ public class HamburgerMenu : MonoBehaviour
     [Header("Sub-menu")]
     public GameObject    subMenuContainer;
     public TMP_Text      huongDanArrow;     // "▶" / "▼"
-    public float         panelHeightCollapsed = 315f;
-    public float         panelHeightExpanded  = 523f;
+    public float         panelHeightCollapsed = 457f;
+    public float         panelHeightExpanded  = 713f;
+
+    [Header("Audio")]
+    public TMP_Text audioLabel;             // shows "Âm thanh: On/Off"
 
     private bool      _isOpen;
     private bool      _subOpen;
+    private bool      _audioOn;
     private float     _panelW;
     private float     _panelY;
     private Coroutine _anim;
@@ -47,6 +51,11 @@ public class HamburgerMenu : MonoBehaviour
         if (overlay)          overlay.SetActive(false);
         if (subMenuContainer) subMenuContainer.SetActive(false);
         SetPanelHeight(panelHeightCollapsed);
+
+        // Init audio state (default On)
+        _audioOn = PlayerPrefs.GetInt("audio_on", 1) == 1;
+        AudioListener.volume = _audioOn ? 1f : 0f;
+        UpdateAudioLabel();
     }
 
     // ── Open / Close ──────────────────────────────────────────────────────────
@@ -109,4 +118,28 @@ public class HamburgerMenu : MonoBehaviour
     public void OnCachNho()  { Close(); SceneManager.LoadScene("Help"); }
     public void OnNhanDien() { Close(); SceneManager.LoadScene("LearnCards"); }
     public void OnVideoMau() { Close(); SceneManager.LoadScene("VideoSamples"); }
+
+    public void OnAmThanh()
+    {
+        _audioOn = !_audioOn;
+        AudioListener.volume = _audioOn ? 1f : 0f;
+        PlayerPrefs.SetInt("audio_on", _audioOn ? 1 : 0);
+        PlayerPrefs.Save();
+        UpdateAudioLabel();
+    }
+
+    public void OnThoat()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
+
+    void UpdateAudioLabel()
+    {
+        if (audioLabel != null)
+            audioLabel.text = _audioOn ? "Âm thanh: On" : "Âm thanh: Off";
+    }
 }

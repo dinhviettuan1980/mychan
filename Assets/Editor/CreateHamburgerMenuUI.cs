@@ -13,9 +13,9 @@ public static class CreateHamburgerMenuUI
     const float H_PADDING = 12f;
     const float INDENT    = 16f;
 
-    // collapsed = header + 3 items + 3 dividers + huong dan row + padding
-    const float H_COLLAPSED = H_HEADER + H_ITEM*3 + H_DIV*3 + H_ITEM + H_PADDING;
-    // expanded  = collapsed + 4 sub-items (same height as items)
+    // collapsed = header + 3 items + 3 dividers + huong dan row + 2 dividers + 2 items + padding
+    const float H_COLLAPSED = H_HEADER + H_ITEM*3 + H_DIV*3 + H_ITEM + H_DIV*2 + H_ITEM*2 + H_PADDING;
+    // expanded  = collapsed + 4 sub-items
     const float H_EXPANDED  = H_COLLAPSED + H_ITEM * 4;
 
     // ── Colors ────────────────────────────────────────────────────────────────
@@ -110,6 +110,14 @@ public static class CreateHamburgerMenuUI
         var sb4 = AddSubItem(subContainer.transform, btnSprite, "Video mẫu",           ref sy, H_ITEM);
         subContainer.SetActive(false);
 
+        // ── Âm thanh toggle ──────────────────────────────────────────────────
+        AddDivider(panel.transform, ref y);
+        var btnAm = AddItem(panel.transform, btnSprite, "Âm thanh: On", ref y, H_ITEM, 0f, C_TEXT);
+
+        // ── Thoát ─────────────────────────────────────────────────────────────
+        AddDivider(panel.transform, ref y);
+        var btnThoat = AddItem(panel.transform, btnSprite, "Thoát", ref y, H_ITEM, 0f, C_TEXT);
+
         // ── Hamburger trigger button (top-right, always visible) ──────────────
         var hamGO = MakeBtn("HamburgerBtn", root, "☰", btnSprite, 28, C_TEXT);
         var hamImg = hamGO.GetComponent<Image>();
@@ -127,6 +135,7 @@ public static class CreateHamburgerMenuUI
         so.FindProperty("overlay")            .objectReferenceValue = overlay;
         so.FindProperty("subMenuContainer")   .objectReferenceValue = subContainer;
         so.FindProperty("huongDanArrow")      .objectReferenceValue = arrow.GetComponent<TMP_Text>();
+        so.FindProperty("audioLabel")         .objectReferenceValue = btnAm.GetComponentInChildren<TMP_Text>();
         so.FindProperty("panelHeightCollapsed").floatValue = H_COLLAPSED;
         so.FindProperty("panelHeightExpanded") .floatValue = H_EXPANDED;
         so.ApplyModifiedProperties();
@@ -143,6 +152,8 @@ public static class CreateHamburgerMenuUI
         Wire(sb2.GetComponent<Button>(), hm, "OnCachNho");
         Wire(sb3.GetComponent<Button>(), hm, "OnNhanDien");
         Wire(sb4.GetComponent<Button>(), hm, "OnVideoMau");
+        Wire(btnAm   .GetComponent<Button>(), hm, "OnAmThanh");
+        Wire(btnThoat.GetComponent<Button>(), hm, "OnThoat");
 
         Selection.activeGameObject = hamGO;
         EditorUtility.SetDirty(canvas.gameObject);
