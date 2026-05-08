@@ -7,22 +7,16 @@ public class GuidePopupUI : MonoBehaviour
 
     void Start()
     {
-        // Hiện popup ngay khi vào scene
-        popupRoot.SetActive(true);
+        popupRoot.SetActive(false);
+
+        if (cardManager != null)
+            cardManager.DealCards();
+        else
+            Debug.LogError("GuidePopupUI: CardManager chưa được gán!");
     }
 
     public void ClosePopup()
     {
         popupRoot.SetActive(false);
-
-        // 🔥 tự động chia bài khi đóng popup
-        if (cardManager != null)
-        {
-            cardManager.DealCards();
-        }
-        else
-        {
-            Debug.LogError("GuidePopupUI: CardManager chưa được gán!");
-        }
     }
 }

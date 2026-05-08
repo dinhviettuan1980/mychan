@@ -236,6 +236,6 @@ public class LearnSortGameManager : MonoBehaviour
 
     void BackToMenu()
     {
-        SceneManager.LoadScene("MiniGameMenu"); // đổi thành tên scene menu của bạn
+        SceneManager.LoadScene("xep_bai");
     }
 }

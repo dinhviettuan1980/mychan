@@ -38,6 +38,6 @@ public class HelpManager : MonoBehaviour
 
     public void OnBackButtonClick()
     {
-        SceneManager.LoadScene("MiniGameMenu");
+        SceneManager.LoadScene("xep_bai");
     }
 }

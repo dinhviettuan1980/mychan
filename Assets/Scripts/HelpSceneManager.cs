@@ -8,7 +8,7 @@ public class HelpSceneManager : MonoBehaviour
     {
         // Quay về scene DashBoard
         Debug.Log("Quay về scene MiniGameMenu ");
-        SceneManager.LoadScene("MiniGameMenu");
+        SceneManager.LoadScene("xep_bai");
     }
 
     // 🀄 Gọi khi click vào nút "XepBaiButton"

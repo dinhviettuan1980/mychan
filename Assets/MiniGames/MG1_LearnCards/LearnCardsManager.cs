@@ -92,6 +92,6 @@ public class LearnCardsManager : MonoBehaviour
 
     public void OnClickBack()
     {
-        SceneManager.LoadScene("MiniGameMenu");
+        SceneManager.LoadScene("xep_bai");
     }
 }

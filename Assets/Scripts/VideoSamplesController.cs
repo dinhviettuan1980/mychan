@@ -84,7 +84,7 @@ public class VideoSamplesController : MonoBehaviour
         AddButton(listPanel.transform, "← Quay lại",
             new Vector2(0, startY - step * n), new Vector2(580, 110),
             new Color(0.25f, 0.65f, 1f),
-            () => SceneManager.LoadScene("MiniGameMenu"),
+            () => SceneManager.LoadScene("xep_bai"),
             textOffsetY: -20f);
     }
 

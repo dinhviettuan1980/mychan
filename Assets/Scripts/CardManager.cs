@@ -9,10 +9,12 @@ public class CardManager : MonoBehaviour
     public GameObject cardPrefab;
     public Transform handArea;
     public ResultPopup1 resultPopup1;
+    public QuizPopup    quizPopup;
     public GameObject sortExplanationPopup;
 
     private List<CardData> shuffledDeck  = new List<CardData>();
     private List<CardData> playerHand    = new List<CardData>();
+    private List<CardData> dealtHand     = new List<CardData>();
     private List<CardData> remainingDeck = new List<CardData>();
     private Dictionary<int, bool> selectedMap = new Dictionary<int, bool>();
     // Tracks which cards the player tapped, in tap order, for GroupSelectedCards.
@@ -26,6 +28,7 @@ public class CardManager : MonoBehaviour
     {
         shuffledDeck = new List<CardData>(fullDeck.cards);
         if (sortExplanationPopup != null) sortExplanationPopup.SetActive(false);
+        DealCards();
     }
 
     // ── Deal ───────────────────────────────────────────────────────────────
@@ -36,8 +39,19 @@ public class CardManager : MonoBehaviour
         _selectionOrderCI.Clear();
         Shuffle(shuffledDeck);
         playerHand    = shuffledDeck.GetRange(0, 19);
+        dealtHand     = new List<CardData>(playerHand);
         remainingDeck = shuffledDeck.GetRange(19, shuffledDeck.Count - 19);
         Debug.Log($"Tay bài: {playerHand.Count} quân, Còn lại: {remainingDeck.Count} quân");
+        DisplayPlayerHand();
+        UpdateCardIndexes();
+    }
+
+    public void RetryHand()
+    {
+        if (dealtHand == null || dealtHand.Count == 0) return;
+        ClearCardOverlays();
+        _selectionOrderCI.Clear();
+        playerHand = new List<CardData>(dealtHand);
         DisplayPlayerHand();
         UpdateCardIndexes();
     }
@@ -212,7 +226,14 @@ public class CardManager : MonoBehaviour
         ClearCardOverlays();
         ApplyGroupOverlays(results);
 
-        resultPopup1.Show($"% đúng: {correct}/{machineTotal} bộ ({pct:F0}%)");
+        bool isPerfect = (pct >= 100f);
+        System.Action onClose = isPerfect
+            ? (System.Action)(() => {
+                if (quizPopup != null) quizPopup.Show(QuizBank.GetRandom(), new List<CardData>(dealtHand), DealCards);
+                else DealCards();
+              })
+            : null;
+        resultPopup1.Show($"% đúng: {correct}/{machineTotal} bộ ({pct:F0}%)", onClose);
     }
 
     // ── Group parsing algorithms ───────────────────────────────────────────
