@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffcf7f780f994289bc0326b4bbca08a, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: "nh\u1ECB s\xE1ch"
+    sprite: {fileID: 21300000, guid: 07b129e7b665f490cb96d1142eac1477, type: 3}
+  - cardName: "tam s\xE1ch"
+    sprite: {fileID: 21300000, guid: b22bbc2cb9aa1444eaa30890887c6a3c, type: 3}
+  - cardName: "t\u1EE9 s\xE1ch"
+    sprite: {fileID: 21300000, guid: 5dfe29f14e2c245c5b0c097b8f336567, type: 3}
+  - cardName: "ng\u0169 s\xE1ch"
+    sprite: {fileID: 21300000, guid: b0c4908e365c94dd494a29119fe29986, type: 3}
+  - cardName: "l\u1EE5c s\xE1ch"
+    sprite: {fileID: 21300000, guid: 4a38ecc53f5924d18856e8b7bfdbe80d, type: 3}
+  - cardName: "th\u1EA5t s\xE1ch"
+    sprite: {fileID: 21300000, guid: b10370004f3ca4ce79cd13bbc50b19ef, type: 3}
+  - cardName: "c\u1EEDu s\xE1ch"
+    sprite: {fileID: 21300000, guid: 0cd1a6628a13e4e838eedf49b932da6d, type: 3}
+  - cardName: "nh\u1ECB v\u1EA1n"
+    sprite: {fileID: 21300000, guid: a08bcbf89544f4931a90690c82656a37, type: 3}
+  - cardName: "tam v\u1EA1n"
+    sprite: {fileID: 21300000, guid: 4f8e7b2bfd5c34aa49e90f7033fb849f, type: 3}
+  - cardName: "t\u1EE9 v\u1EA1n"
+    sprite: {fileID: 21300000, guid: 39332830cddf44002a619b75058bc1e7, type: 3}
+  - cardName: "ng\u0169 v\u1EA1n"
+    sprite: {fileID: 21300000, guid: 55bad93dcec3143039e4beb6873cd1bd, type: 3}
+  - cardName: "l\u1EE5c v\u1EA1n"
+    sprite: {fileID: 21300000, guid: c93523c30b0ba40daa8fc8eda45e7d46, type: 3}
+  - cardName: "th\u1EA5t v\u1EA1n"
+    sprite: {fileID: 21300000, guid: c7538df52ea734c23b76e5584cc6b167, type: 3}
+  - cardName: "b\xE1t v\u1EA1n"
+    sprite: {fileID: 21300000, guid: 866db2ef46e7e4415a78cb7cd87f5106, type: 3}
+  - cardName: "c\u1EEDu v\u1EA1n"
+    sprite: {fileID: 21300000, guid: f332a278647b74cf9afd170d6f77d36c, type: 3}
+  - cardName: "nhi v\u0103n"
+    sprite: {fileID: 21300000, guid: 05833885771f647169269ee50d20a758, type: 3}
+  - cardName: "tam v\u0103n"
+    sprite: {fileID: 21300000, guid: 343269c5a6f914a7b980762bb26f1ed2, type: 3}
+  - cardName: "t\u1EE9 v\u0103n"
+    sprite: {fileID: 21300000, guid: 9ccb7485107d3410bbd9cf5bd54f12ef, type: 3}
+  - cardName: "ng\u0169 v\u0103n"
+    sprite: {fileID: 21300000, guid: 601dbca7f01ae4945b5e95fc97b4da09, type: 3}
+  - cardName: "l\u1EE5c v\u0103n"
+    sprite: {fileID: 21300000, guid: 8e21e82c7b5324da082c09b6cb65e35e, type: 3}
+  - cardName: "th\u1EA5t v\u0103n"
+    sprite: {fileID: 21300000, guid: 21f992b07e06243b7a8e7629a39ab1fe, type: 3}
+  - cardName: "c\u1EEDu v\u0103n"
+    sprite: {fileID: 21300000, guid: db4eaa1d5ef9047d990a815380e4fab2, type: 3}
+  - cardName: "b\xE1t s\xE1ch"
+    sprite: {fileID: 21300000, guid: c08f9c659085648588fb3eba51140c42, type: 3}
+  - cardName: "b\xE1t  v\u1EA1n"
+    sprite: {fileID: 21300000, guid: 866db2ef46e7e4415a78cb7cd87f5106, type: 3}
+  - cardName: chi chi
+    sprite: {fileID: 21300000, guid: 091504ffca18b4ed2875960fb9975c13, type: 3}

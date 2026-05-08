@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: d9e0df1b8c6f341d68938e1f7a9fe30e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3896493207205249713
+    second: totom-chan_0
+  - first:
+      213: 6193988188198768451
+    second: totom-chan_1
+  - first:
+      213: 1164710973049634021
+    second: totom-chan_2
+  - first:
+      213: 6535028115739555724
+    second: totom-chan_3
+  - first:
+      213: 2086597238152918439
+    second: totom-chan_4
+  - first:
+      213: -111457780823900838
+    second: totom-chan_5
+  - first:
+      213: 4415679564478797735
+    second: totom-chan_6
+  - first:
+      213: 7256199551003028863
+    second: totom-chan_7
+  - first:
+      213: 1052587743837914288
+    second: totom-chan_8
+  - first:
+      213: 3257482629592116526
+    second: totom-chan_9
+  - first:
+      213: -3696021879594124970
+    second: totom-chan_10
+  - first:
+      213: -7149843284117010607
+    second: totom-chan_11
+  - first:
+      213: 3691640751337381443
+    second: totom-chan_12
+  - first:
+      213: -8531511349864367597
+    second: totom-chan_13
+  - first:
+      213: -2571118983353317553
+    second: totom-chan_14
+  - first:
+      213: 4338029680775940952
+    second: totom-chan_15
+  - first:
+      213: -1133632177937580901
+    second: totom-chan_16
+  - first:
+      213: -4826703255005887366
+    second: totom-chan_17
+  - first:
+      213: -1165390963722718632
+    second: totom-chan_18
+  - first:
+      213: -8844224441003718236
+    second: totom-chan_19
+  - first:
+      213: -4171454838765035203
+    second: totom-chan_20
+  - first:
+      213: -6926811469631980161
+    second: totom-chan_21
+  - first:
+      213: -5437581661458937763
+    second: totom-chan_22
+  - first:
+      213: 282314482771117788
+    second: totom-chan_23
+  - first:
+      213: -9025904016458967374
+    second: totom-chan_24
+  - first:
+      213: -9206254119591085403
+    second: totom-chan_25
+  - first:
+      213: -4226488737281460995
+    second: totom-chan_26
+  - first:
+      213: -3983209939182651910
+    second: totom-chan_27
+  - first:
+      213: -3077900866558306340
+    second: totom-chan_28
+  - first:
+      213: 6709629118844580733
+    second: totom-chan_29
+  - first:
+      213: 7443456188692101032
+    second: totom-chan_30
+  - first:
+      213: 4959840900853162633
+    second: totom-chan_31
+  - first:
+      213: -4216169448551688674
+    second: totom-chan_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: totom-chan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfec29210ece9c0800000000000000
+      internalID: -3896493207205249713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8d84a07775f550800000000000000
+      internalID: 6193988188198768451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec7f968572e92010800000000000000
+      internalID: 1164710973049634021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87b8db727511ba50800000000000000
+      internalID: 6535028115739555724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a57a61022515fc10800000000000000
+      internalID: 2086597238152918439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db9862db5047ef0800000000000000
+      internalID: -111457780823900838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d5ba2b25a74d30800000000000000
+      internalID: 4415679564478797735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d62e0fb0333b460800000000000000
+      internalID: 7256199551003028863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b48366e9fa8b9e00800000000000000
+      internalID: 1052587743837914288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de7d65137e43d20800000000000000
+      internalID: 3257482629592116526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 355
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65978b0dea715bcc0800000000000000
+      internalID: -3696021879594124970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1574e722a67a6cc90800000000000000
+      internalID: -7149843284117010607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e12d544b75b3330800000000000000
+      internalID: 3691640751337381443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31afe1211abf99980800000000000000
+      internalID: -8531511349864367597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4746f138ec815cd0800000000000000
+      internalID: -2571118983353317553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b40c3c207c33c30800000000000000
+      internalID: 4338029680775940952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf3185a878440f0800000000000000
+      internalID: -1133632177937580901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74072966fa140db0800000000000000
+      internalID: -4826703255005887366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527bdec713b3dfe0800000000000000
+      internalID: -1165390963722718632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a94528cab0034580800000000000000
+      internalID: -8844224441003718236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3163daece30c16c0800000000000000
+      internalID: -4171454838765035203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_21
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 180
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dfb7e0ba50fdf90800000000000000
+      internalID: -6926811469631980161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58cf87d944d984b0800000000000000
+      internalID: -5437581661458937763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6458cb68bfae300800000000000000
+      internalID: 282314482771117788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6113a4e1c8db280800000000000000
+      internalID: -9025904016458967374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aafbc1b7a0dc3080800000000000000
+      internalID: -9206254119591085403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df43627e2ee7855c0800000000000000
+      internalID: -4226488737281460995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5763d0aabc8b8c0800000000000000
+      internalID: -3983209939182651910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7dce228791945d0800000000000000
+      internalID: -3077900866558306340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73395b62246d1d50800000000000000
+      internalID: 6709629118844580733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7fc2c67f77c4760800000000000000
+      internalID: 7443456188692101032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9826ecd5505e4d440800000000000000
+      internalID: 4959840900853162633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totom-chan_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 5
+        width: 37
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16d83a89382d75c0800000000000000
+      internalID: -4216169448551688674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      totom-chan_0: -3896493207205249713
+      totom-chan_1: 6193988188198768451
+      totom-chan_10: -3696021879594124970
+      totom-chan_11: -7149843284117010607
+      totom-chan_12: 3691640751337381443
+      totom-chan_13: -8531511349864367597
+      totom-chan_14: -2571118983353317553
+      totom-chan_15: 4338029680775940952
+      totom-chan_16: -1133632177937580901
+      totom-chan_17: -4826703255005887366
+      totom-chan_18: -1165390963722718632
+      totom-chan_19: -8844224441003718236
+      totom-chan_2: 1164710973049634021
+      totom-chan_20: -4171454838765035203
+      totom-chan_21: -6926811469631980161
+      totom-chan_22: -5437581661458937763
+      totom-chan_23: 282314482771117788
+      totom-chan_24: -9025904016458967374
+      totom-chan_25: -9206254119591085403
+      totom-chan_26: -4226488737281460995
+      totom-chan_27: -3983209939182651910
+      totom-chan_28: -3077900866558306340
+      totom-chan_29: 6709629118844580733
+      totom-chan_3: 6535028115739555724
+      totom-chan_30: 7443456188692101032
+      totom-chan_31: 4959840900853162633
+      totom-chan_32: -4216169448551688674
+      totom-chan_4: 2086597238152918439
+      totom-chan_5: -111457780823900838
+      totom-chan_6: 4415679564478797735
+      totom-chan_7: 7256199551003028863
+      totom-chan_8: 1052587743837914288
+      totom-chan_9: 3257482629592116526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0dcfff601bc4ed2b87fe61a811556b, type: 3}
+  m_Name: Base25Cards
+  m_EditorClassIdentifier: 
+  cards:
+  - id: sach_2
+    name: "Nh\u1ECB s\xE1ch"
+    type: sach
+    rank: 2
+    image: {fileID: 21300000, guid: ace557dc94f7c4a8da0959de87932004, type: 3}
+  - id: sach_3
+    name: "Tam s\xE1ch"
+    type: sach
+    rank: 3
+    image: {fileID: 21300000, guid: 88f92c55521a64eefbbb11187a85852e, type: 3}
+  - id: sach_4
+    name: "T\u1EE9 s\xE1ch"
+    type: sach
+    rank: 4
+    image: {fileID: 21300000, guid: 3d541a99f6c784a0294ab2e03143e8ae, type: 3}
+  - id: sach_5
+    name: "Ng\u0169 s\xE1ch"
+    type: sach
+    rank: 5
+    image: {fileID: 21300000, guid: fd49e73807a8b46c5bcefdc1c7d87f98, type: 3}
+  - id: sach_6
+    name: "L\u1EE5c s\xE1ch"
+    type: sach
+    rank: 6
+    image: {fileID: 21300000, guid: ca0b1c3e383e54804881617cfc600de7, type: 3}
+  - id: sach_7
+    name: "Th\u1EA5t s\xE1ch"
+    type: sach
+    rank: 7
+    image: {fileID: 21300000, guid: 9d0b4b856bf6947f38c1ddd11e60ebc9, type: 3}
+  - id: sach_8
+    name: "B\xE1t s\xE1ch"
+    type: sach
+    rank: 8
+    image: {fileID: 21300000, guid: 1df4ee554bebf421ba9745a2f11b910b, type: 3}
+  - id: sach_9
+    name: "C\u1EEDu s\xE1ch"
+    type: sach
+    rank: 9
+    image: {fileID: 21300000, guid: eded3448334764edda31202e4824eeec, type: 3}
+  - id: vanj_2
+    name: "Nh\u1ECB v\u1EA1n"
+    type: vanj
+    rank: 2
+    image: {fileID: 21300000, guid: 1e4b24cb13abd4a64a32770ba3e511d5, type: 3}
+  - id: vanj_3
+    name: Tam vanj
+    type: vanj
+    rank: 3
+    image: {fileID: 21300000, guid: 2cdc8b9500e7a4a879a3daa6022fc22a, type: 3}
+  - id: vanj_4
+    name: "T\u1EE9 v\u1EA1n"
+    type: vanj
+    rank: 4
+    image: {fileID: 21300000, guid: ce3765a14dc914807a5c7185aa8079e9, type: 3}
+  - id: vanj_5
+    name: "Ng\u0169 v\u1EA1n"
+    type: vanj
+    rank: 5
+    image: {fileID: 21300000, guid: 9bbe453679f7e44af891a7e81ca81c69, type: 3}
+  - id: vanj_6
+    name: "L\u1EE5c v\u1EA1n"
+    type: vanj
+    rank: 6
+    image: {fileID: 21300000, guid: 86ac0746a38a44f54b2a6efef383b7e6, type: 3}
+  - id: vanj_7
+    name: "Th\xE1t v\u1EA1n"
+    type: vanj
+    rank: 7
+    image: {fileID: 21300000, guid: 2e58e089a56344ec989ebc4c7af544bb, type: 3}
+  - id: vanj_8
+    name: "B\xE1t v\u1EA1n"
+    type: vanj
+    rank: 8
+    image: {fileID: 21300000, guid: e95f0118e80f148f286cc95566d47f56, type: 3}
+  - id: vanj_9
+    name: "C\u1EEDu v\u1EA1n"
+    type: vanj
+    rank: 9
+    image: {fileID: 21300000, guid: 8fa31403fccda4c79a369d044a3f78d9, type: 3}
+  - id: van_2
+    name: "Nh\u1ECB v\u0103n"
+    type: van
+    rank: 2
+    image: {fileID: 21300000, guid: 1cd978d756cfd464ab97ea25a2ad934e, type: 3}
+  - id: van_3
+    name: "Tam v\u0103n"
+    type: van
+    rank: 3
+    image: {fileID: 21300000, guid: 8e153c5ff1ae449caac156ca627beaa3, type: 3}
+  - id: van_4
+    name: "T\u1EE9 v\u0103n"
+    type: van
+    rank: 4
+    image: {fileID: 21300000, guid: ced1a158d33aa46e78250b9cd128d304, type: 3}
+  - id: van_5
+    name: "Ng\u0169 v\u0103n"
+    type: van
+    rank: 5
+    image: {fileID: 21300000, guid: 953b48b8d37b2482dafe3957cbcb05f8, type: 3}
+  - id: van_6
+    name: "L\u1EE5c v\u0103n"
+    type: van
+    rank: 6
+    image: {fileID: 21300000, guid: 3ad6f13ec1c934f29961a46724d10422, type: 3}
+  - id: van_7
+    name: "Th\xE1t v\u0103n"
+    type: van
+    rank: 7
+    image: {fileID: 21300000, guid: d7909c7a460df4d6e8388e8c95124651, type: 3}
+  - id: van_8
+    name: "B\xE1t v\u0103n"
+    type: van
+    rank: 8
+    image: {fileID: 21300000, guid: 864114d07dc2842b4bda976b8622f477, type: 3}
+  - id: van_9
+    name: "C\u1EEDu v\u0103n"
+    type: van
+    rank: 9
+    image: {fileID: 21300000, guid: 21f04ad7da8a646b1959107dfeab4d89, type: 3}
+  - id: chi
+    name: Chi chi
+    type: chi
+    rank: 10
+    image: {fileID: 21300000, guid: 714b5a95d62f343ec92ef983cb446bfa, type: 3}

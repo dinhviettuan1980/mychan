@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontTextureCase: -2
+  fontLoadingLocation: 0
+  use2xBehaviour: 0
+  fontNames:
+  - UTM Thu Phap Thien An
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

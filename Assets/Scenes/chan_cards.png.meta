@@ -1,0 +1,1445 @@
+fileFormatVersion: 2
+guid: f49ca268f7a5b407c9d94361b857bc1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2081456180489817236
+    second: chan_cards_0
+  - first:
+      213: 433807809156373796
+    second: chan_cards_1
+  - first:
+      213: 4977691937811904300
+    second: chan_cards_2
+  - first:
+      213: 6518344484336331548
+    second: chan_cards_3
+  - first:
+      213: 9157231521378366822
+    second: chan_cards_4
+  - first:
+      213: -957376393933255967
+    second: chan_cards_5
+  - first:
+      213: 5839563342001373409
+    second: chan_cards_6
+  - first:
+      213: -2349906834846302336
+    second: chan_cards_7
+  - first:
+      213: 4292442982961688979
+    second: chan_cards_8
+  - first:
+      213: -4574405667787641487
+    second: chan_cards_9
+  - first:
+      213: 863946576060186354
+    second: chan_cards_10
+  - first:
+      213: -5996068465787619109
+    second: chan_cards_11
+  - first:
+      213: 5192565699336208017
+    second: chan_cards_12
+  - first:
+      213: -3385413948256130940
+    second: chan_cards_13
+  - first:
+      213: -6731718530804851201
+    second: chan_cards_14
+  - first:
+      213: 391628476546142077
+    second: chan_cards_15
+  - first:
+      213: -7984397344186486834
+    second: chan_cards_16
+  - first:
+      213: -5529188890479736301
+    second: chan_cards_17
+  - first:
+      213: 1236965244329603252
+    second: chan_cards_18
+  - first:
+      213: 4493831283309447940
+    second: chan_cards_19
+  - first:
+      213: -1741302520539039387
+    second: chan_cards_20
+  - first:
+      213: -2865652560895365008
+    second: chan_cards_21
+  - first:
+      213: 943659130823942668
+    second: chan_cards_22
+  - first:
+      213: 8824026669302200652
+    second: chan_cards_23
+  - first:
+      213: 4398111287181497841
+    second: chan_cards_24
+  - first:
+      213: -6817666543704648086
+    second: chan_cards_25
+  - first:
+      213: -7507940160425664052
+    second: chan_cards_26
+  - first:
+      213: -3424824172355712279
+    second: chan_cards_27
+  - first:
+      213: 8758985368409508313
+    second: chan_cards_28
+  - first:
+      213: -4836001916939729314
+    second: chan_cards_29
+  - first:
+      213: 5142907794414573597
+    second: chan_cards_30
+  - first:
+      213: -566561266832310542
+    second: chan_cards_31
+  - first:
+      213: -4954682175202066633
+    second: chan_cards_32
+  - first:
+      213: -6198658070673843315
+    second: chan_cards_33
+  - first:
+      213: -313247334885463953
+    second: chan_cards_34
+  - first:
+      213: 7044954927233889554
+    second: chan_cards_35
+  - first:
+      213: -4528712227354207513
+    second: chan_cards_36
+  - first:
+      213: -3916345787394849521
+    second: chan_cards_37
+  - first:
+      213: 4816305346892527497
+    second: chan_cards_38
+  - first:
+      213: 149938175513241652
+    second: chan_cards_39
+  - first:
+      213: 5321311755595674758
+    second: chan_cards_40
+  - first:
+      213: 5995573421288516100
+    second: chan_cards_41
+  - first:
+      213: -2904908713657358345
+    second: chan_cards_42
+  - first:
+      213: -251785019694787151
+    second: chan_cards_43
+  - first:
+      213: -1905237556230219780
+    second: chan_cards_44
+  - first:
+      213: -8852164319146545705
+    second: chan_cards_45
+  - first:
+      213: -1488477060055560294
+    second: chan_cards_46
+  - first:
+      213: 7463909968138586471
+    second: chan_cards_47
+  - first:
+      213: -4400283078179037166
+    second: chan_cards_48
+  - first:
+      213: -1334944797543609066
+    second: chan_cards_49
+  - first:
+      213: 5525099674897581207
+    second: chan_cards_50
+  - first:
+      213: 6780628510405912615
+    second: chan_cards_51
+  - first:
+      213: -197308870069079776
+    second: chan_cards_52
+  - first:
+      213: -3475260307570023428
+    second: chan_cards_53
+  - first:
+      213: 6931603830815093992
+    second: chan_cards_54
+  - first:
+      213: 6177364467329519820
+    second: chan_cards_55
+  - first:
+      213: -2804510936782490493
+    second: chan_cards_56
+  - first:
+      213: 6867727452018957253
+    second: chan_cards_57
+  - first:
+      213: 8591820263802748666
+    second: chan_cards_58
+  - first:
+      213: 1573394569868453761
+    second: chan_cards_59
+  - first:
+      213: -171862753700596731
+    second: chan_cards_60
+  - first:
+      213: 170798697371838220
+    second: chan_cards_61
+  - first:
+      213: 6217658041477596516
+    second: chan_cards_62
+  - first:
+      213: 4119422888932489273
+    second: chan_cards_63
+  - first:
+      213: 6913703559907386582
+    second: chan_cards_64
+  - first:
+      213: -1855169044231410172
+    second: chan_cards_65
+  - first:
+      213: 1595993585712484312
+    second: chan_cards_66
+  - first:
+      213: -5903094667995976390
+    second: chan_cards_67
+  - first:
+      213: -4314488283728947484
+    second: chan_cards_68
+  - first:
+      213: -4170412940997150325
+    second: chan_cards_69
+  - first:
+      213: 5734553138745805289
+    second: chan_cards_70
+  - first:
+      213: -4203910681790126323
+    second: chan_cards_71
+  - first:
+      213: 7492565880500952049
+    second: chan_cards_72
+  - first:
+      213: -7334304670018025755
+    second: chan_cards_73
+  - first:
+      213: -1081336143859410700
+    second: chan_cards_74
+  - first:
+      213: 4827140423106122372
+    second: chan_cards_75
+  - first:
+      213: 3279403335604395721
+    second: chan_cards_76
+  - first:
+      213: -7030579788818221739
+    second: chan_cards_77
+  - first:
+      213: -2467660348375832665
+    second: chan_cards_78
+  - first:
+      213: 1035569337269483902
+    second: chan_cards_79
+  - first:
+      213: 6146810966927073772
+    second: chan_cards_80
+  - first:
+      213: -8544770792283803919
+    second: chan_cards_81
+  - first:
+      213: -876514739316839470
+    second: chan_cards_82
+  - first:
+      213: 6153107206647024327
+    second: chan_cards_83
+  - first:
+      213: 2650553085542384297
+    second: chan_cards_84
+  - first:
+      213: -3287897842942350046
+    second: chan_cards_85
+  - first:
+      213: -1040987113545158427
+    second: chan_cards_86
+  - first:
+      213: -7305720591590549001
+    second: chan_cards_87
+  - first:
+      213: -5020181701174481316
+    second: chan_cards_88
+  - first:
+      213: 221875598546386470
+    second: chan_cards_89
+  - first:
+      213: 3779379724291709277
+    second: chan_cards_90
+  - first:
+      213: -8130145777545069435
+    second: chan_cards_91
+  - first:
+      213: 1163859324527081268
+    second: chan_cards_92
+  - first:
+      213: -305625624054278505
+    second: chan_cards_93
+  - first:
+      213: -1133095978831789028
+    second: chan_cards_94
+  - first:
+      213: 7143865668988382554
+    second: chan_cards_95
+  - first:
+      213: -4539994267982128859
+    second: chan_cards_96
+  - first:
+      213: -7574858679025210342
+    second: chan_cards_97
+  - first:
+      213: 1433767696523469689
+    second: chan_cards_98
+  - first:
+      213: -3708016407422885359
+    second: chan_cards_99
+  - first:
+      213: -3474238347689645825
+    second: chan_cards_100
+  - first:
+      213: -5146679920653370561
+    second: chan_cards_101
+  - first:
+      213: -4901148367388074492
+    second: chan_cards_102
+  - first:
+      213: -8030708257762622018
+    second: chan_cards_103
+  - first:
+      213: 2237700869094111674
+    second: chan_cards_104
+  - first:
+      213: -2464441831726505183
+    second: chan_cards_105
+  - first:
+      213: -2089709369328335011
+    second: chan_cards_106
+  - first:
+      213: 2243600450385900762
+    second: chan_cards_107
+  - first:
+      213: -7247684882992354109
+    second: chan_cards_108
+  - first:
+      213: 6583366775213877620
+    second: chan_cards_109
+  - first:
+      213: 2366540569469706564
+    second: chan_cards_110
+  - first:
+      213: -586715498774823290
+    second: chan_cards_111
+  - first:
+      213: 4509657284963351691
+    second: chan_cards_112
+  - first:
+      213: -8763952122637658011
+    second: chan_cards_113
+  - first:
+      213: 2627594783586778884
+    second: chan_cards_114
+  - first:
+      213: -2885082431945701124
+    second: chan_cards_115
+  - first:
+      213: 4695483192973267822
+    second: chan_cards_116
+  - first:
+      213: 7103769869991677748
+    second: chan_cards_117
+  - first:
+      213: -8943532153896698671
+    second: chan_cards_118
+  - first:
+      213: -8622405775392097528
+    second: chan_cards_119
+  - first:
+      213: -5765907427423734361
+    second: chan_cards_120
+  - first:
+      213: -1801147708602358328
+    second: chan_cards_121
+  - first:
+      213: -4074907359306777666
+    second: chan_cards_122
+  - first:
+      213: 8543403106338004581
+    second: chan_cards_123
+  - first:
+      213: 9078810273739603135
+    second: chan_cards_124
+  - first:
+      213: 5187060393604816045
+    second: chan_cards_125
+  - first:
+      213: -1131139357176271329
+    second: chan_cards_126
+  - first:
+      213: -4293360489105189930
+    second: chan_cards_127
+  - first:
+      213: 2007150310538535957
+    second: chan_cards_128
+  - first:
+      213: 2359092575091610681
+    second: chan_cards_129
+  - first:
+      213: -5551170319163551803
+    second: chan_cards_130
+  - first:
+      213: 3707564388707261339
+    second: chan_cards_131
+  - first:
+      213: 9156239634485808620
+    second: chan_cards_132
+  - first:
+      213: 7821076090806840889
+    second: chan_cards_133
+  - first:
+      213: -2251641730151873448
+    second: chan_cards_134
+  - first:
+      213: 7675290121544630614
+    second: chan_cards_135
+  - first:
+      213: 796500074385404163
+    second: chan_cards_136
+  - first:
+      213: 7995523608118077322
+    second: chan_cards_137
+  - first:
+      213: -114870521353600893
+    second: chan_cards_138
+  - first:
+      213: -6022536186452395705
+    second: chan_cards_139
+  - first:
+      213: 3434625022961064307
+    second: chan_cards_140
+  - first:
+      213: -7077638927249544554
+    second: chan_cards_141
+  - first:
+      213: -7852859214022276012
+    second: chan_cards_142
+  - first:
+      213: 5838226419323531724
+    second: chan_cards_143
+  - first:
+      213: 5121207440807467888
+    second: chan_cards_144
+  - first:
+      213: 6995275405207754465
+    second: chan_cards_145
+  - first:
+      213: 4886587820688162405
+    second: chan_cards_146
+  - first:
+      213: -9006625919455885532
+    second: chan_cards_147
+  - first:
+      213: -4923167323294200003
+    second: chan_cards_148
+  - first:
+      213: -6553345292851495481
+    second: chan_cards_149
+  - first:
+      213: -5459983963080460466
+    second: chan_cards_150
+  - first:
+      213: 632796539654143645
+    second: chan_cards_151
+  - first:
+      213: -6092510569680852436
+    second: chan_cards_152
+  - first:
+      213: 2997009915299613278
+    second: chan_cards_153
+  - first:
+      213: -2127655224146343713
+    second: chan_cards_154
+  - first:
+      213: 2635218753061964395
+    second: chan_cards_155
+  - first:
+      213: -381539042308936077
+    second: chan_cards_156
+  - first:
+      213: 6497245038099135225
+    second: chan_cards_157
+  - first:
+      213: 2022092447417611120
+    second: chan_cards_158
+  - first:
+      213: -1830507417215622196
+    second: chan_cards_159
+  - first:
+      213: -1729574251738678527
+    second: chan_cards_160
+  - first:
+      213: -1703808569896690011
+    second: chan_cards_161
+  - first:
+      213: -3127857228690644875
+    second: chan_cards_162
+  - first:
+      213: -3021215182109859349
+    second: chan_cards_163
+  - first:
+      213: 2807459767980012638
+    second: chan_cards_164
+  - first:
+      213: 6278320457273279490
+    second: chan_cards_165
+  - first:
+      213: -6514294505998478742
+    second: chan_cards_166
+  - first:
+      213: 6096382514007724113
+    second: chan_cards_167
+  - first:
+      213: -9028102164522276670
+    second: chan_cards_168
+  - first:
+      213: -6412489688986296656
+    second: chan_cards_169
+  - first:
+      213: 5129922745644605529
+    second: chan_cards_170
+  - first:
+      213: -872829122477960564
+    second: chan_cards_171
+  - first:
+      213: -3214999307405408638
+    second: chan_cards_172
+  - first:
+      213: 3179791906948519938
+    second: chan_cards_173
+  - first:
+      213: -3907410954946407522
+    second: chan_cards_174
+  - first:
+      213: -3921705527185729348
+    second: chan_cards_175
+  - first:
+      213: 9007168491165631707
+    second: chan_cards_176
+  - first:
+      213: -1140010265499145557
+    second: chan_cards_177
+  - first:
+      213: 8344404783492949028
+    second: chan_cards_178
+  - first:
+      213: -7159406807350774916
+    second: chan_cards_179
+  - first:
+      213: -3055590935754071021
+    second: chan_cards_180
+  - first:
+      213: 2309276780673161842
+    second: chan_cards_181
+  - first:
+      213: -9041022079580546466
+    second: chan_cards_182
+  - first:
+      213: 4623416853854666692
+    second: chan_cards_183
+  - first:
+      213: 2665731522730219418
+    second: chan_cards_184
+  - first:
+      213: 962721688827184271
+    second: chan_cards_185
+  - first:
+      213: 5378866316783826739
+    second: chan_cards_186
+  - first:
+      213: -3030232742803126749
+    second: chan_cards_187
+  - first:
+      213: -3888675018683645587
+    second: chan_cards_188
+  - first:
+      213: 4388283121785045944
+    second: chan_cards_189
+  - first:
+      213: 9221869770327683525
+    second: chan_cards_190
+  - first:
+      213: -3813326148979929648
+    second: chan_cards_191
+  - first:
+      213: -6449473494532176041
+    second: chan_cards_192
+  - first:
+      213: -6987226847995938419
+    second: chan_cards_193
+  - first:
+      213: 4684174276948091990
+    second: chan_cards_194
+  - first:
+      213: 1479727811342559130
+    second: chan_cards_195
+  - first:
+      213: -7860143487940637819
+    second: chan_cards_196
+  - first:
+      213: -4456800605730064359
+    second: chan_cards_197
+  - first:
+      213: 4567360658891840118
+    second: chan_cards_198
+  - first:
+      213: -1312093440492016051
+    second: chan_cards_199
+  - first:
+      213: 5519822276356308542
+    second: chan_cards_200
+  - first:
+      213: 3971521265481316414
+    second: chan_cards_201
+  - first:
+      213: -2910980634388428208
+    second: chan_cards_202
+  - first:
+      213: 1654518801441377737
+    second: chan_cards_203
+  - first:
+      213: 40679654750026298
+    second: chan_cards_204
+  - first:
+      213: 4388014016620189554
+    second: chan_cards_205
+  - first:
+      213: -2738306985561688358
+    second: chan_cards_206
+  - first:
+      213: 6044656498589919402
+    second: chan_cards_207
+  - first:
+      213: -7785088771180027509
+    second: chan_cards_208
+  - first:
+      213: -2917768166680551445
+    second: chan_cards_209
+  - first:
+      213: -9145057591329876037
+    second: chan_cards_210
+  - first:
+      213: 1746254455948478350
+    second: chan_cards_211
+  - first:
+      213: -3499603876275999191
+    second: chan_cards_212
+  - first:
+      213: -1237494809982204947
+    second: chan_cards_213
+  - first:
+      213: -6624708185613771544
+    second: chan_cards_214
+  - first:
+      213: -3057142013403116866
+    second: chan_cards_215
+  - first:
+      213: -7322295136801063197
+    second: chan_cards_216
+  - first:
+      213: -7846310929576358143
+    second: chan_cards_217
+  - first:
+      213: -5846531798740225696
+    second: chan_cards_218
+  - first:
+      213: 62112550286508891
+    second: chan_cards_219
+  - first:
+      213: -1478486699200943353
+    second: chan_cards_220
+  - first:
+      213: -4692261888281732351
+    second: chan_cards_221
+  - first:
+      213: 8155405855217671456
+    second: chan_cards_222
+  - first:
+      213: -6243364493711509881
+    second: chan_cards_223
+  - first:
+      213: 781633190332090285
+    second: chan_cards_224
+  - first:
+      213: 372617624134238509
+    second: chan_cards_225
+  - first:
+      213: 1941507848707138196
+    second: chan_cards_226
+  - first:
+      213: -7920735637604640558
+    second: chan_cards_227
+  - first:
+      213: -1850328505424298251
+    second: chan_cards_228
+  - first:
+      213: 5385199034515453524
+    second: chan_cards_229
+  - first:
+      213: -1383586222272662651
+    second: chan_cards_230
+  - first:
+      213: 1538595833627013132
+    second: chan_cards_231
+  - first:
+      213: 4659618977608419150
+    second: chan_cards_232
+  - first:
+      213: -6259473004662529247
+    second: chan_cards_233
+  - first:
+      213: -463826527703672560
+    second: chan_cards_234
+  - first:
+      213: -7407724161324940105
+    second: chan_cards_235
+  - first:
+      213: 1391480505367284386
+    second: chan_cards_236
+  - first:
+      213: 7203733019559325148
+    second: chan_cards_237
+  - first:
+      213: -2473125503834745473
+    second: chan_cards_238
+  - first:
+      213: -3883587799666025932
+    second: chan_cards_239
+  - first:
+      213: 5305848257925885418
+    second: chan_cards_240
+  - first:
+      213: 4744335560225718041
+    second: chan_cards_241
+  - first:
+      213: 8117293705675262629
+    second: chan_cards_242
+  - first:
+      213: -7088218447837187396
+    second: chan_cards_243
+  - first:
+      213: -2796329445367981460
+    second: chan_cards_244
+  - first:
+      213: -4559454549755454018
+    second: chan_cards_245
+  - first:
+      213: 2492387542284786055
+    second: chan_cards_246
+  - first:
+      213: -1378974383959716898
+    second: chan_cards_247
+  - first:
+      213: 7406869673197303008
+    second: chan_cards_248
+  - first:
+      213: -7596415238565789474
+    second: chan_cards_249
+  - first:
+      213: 5292881892139366847
+    second: chan_cards_250
+  - first:
+      213: 8313642874219737172
+    second: chan_cards_251
+  - first:
+      213: -5176289346350920449
+    second: chan_cards_252
+  - first:
+      213: -705015682599159758
+    second: chan_cards_253
+  - first:
+      213: -8237822501661559894
+    second: chan_cards_254
+  - first:
+      213: -5796035334548724612
+    second: chan_cards_255
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chan_cards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c03ad3e51d2ec10800000000000000
+      internalID: 2081456180489817236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 820
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d5e8d67e1350600800000000000000
+      internalID: 433807809156373796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 820
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27ba9ac170541540800000000000000
+      internalID: 4977691937811904300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 820
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b6e78d5cfc57a50800000000000000
+      internalID: 6518344484336331548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 820
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66574c53d85051f70800000000000000
+      internalID: 9157231521378366822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea834bfd37b6b2f0800000000000000
+      internalID: -957376393933255967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 616
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e082639beb4a0150800000000000000
+      internalID: 5839563342001373409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 616
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f39bd1f24736fd0800000000000000
+      internalID: -2349906834846302336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 616
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391bc029622d19b30800000000000000
+      internalID: 4292442982961688979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 616
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17debf808427480c0800000000000000
+      internalID: -4574405667787641487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe7bf265da5dfb00800000000000000
+      internalID: 863946576060186354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 412
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8bec7bf7fa9cca0800000000000000
+      internalID: -5996068465787619109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 412
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19effcdfdf2bf0840800000000000000
+      internalID: 5192565699336208017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 412
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4886a8463f79401d0800000000000000
+      internalID: -3385413948256130940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 412
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd567399a12492a0800000000000000
+      internalID: -6731718530804851201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fc57446085f6500800000000000000
+      internalID: 391628476546142077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf213a2be8b13190800000000000000
+      internalID: -7984397344186486834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a4beebfff5443b0800000000000000
+      internalID: -5529188890479736301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 208
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b035c306559a2110800000000000000
+      internalID: 1236965244329603252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 208
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b823a2ebb4d5e30800000000000000
+      internalID: 4493831283309447940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56937c85596a5d7e0800000000000000
+      internalID: -1741302520539039387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 4
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070b422cd282b38d0800000000000000
+      internalID: -2865652560895365008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 4
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a0d1dafc881d00800000000000000
+      internalID: 943659130823942668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 4
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b458018d357a70800000000000000
+      internalID: 8824026669302200652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chan_cards_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5d61bd9ea390d30800000000000000
+      internalID: 4398111287181497841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chan_cards_0: 2081456180489817236
+      chan_cards_1: 433807809156373796
+      chan_cards_10: 863946576060186354
+      chan_cards_11: -5996068465787619109
+      chan_cards_12: 5192565699336208017
+      chan_cards_13: -3385413948256130940
+      chan_cards_14: -6731718530804851201
+      chan_cards_15: 391628476546142077
+      chan_cards_16: -7984397344186486834
+      chan_cards_17: -5529188890479736301
+      chan_cards_18: 1236965244329603252
+      chan_cards_19: 4493831283309447940
+      chan_cards_2: 4977691937811904300
+      chan_cards_20: -1741302520539039387
+      chan_cards_21: -2865652560895365008
+      chan_cards_22: 943659130823942668
+      chan_cards_23: 8824026669302200652
+      chan_cards_24: 4398111287181497841
+      chan_cards_3: 6518344484336331548
+      chan_cards_4: 9157231521378366822
+      chan_cards_5: -957376393933255967
+      chan_cards_6: 5839563342001373409
+      chan_cards_7: -2349906834846302336
+      chan_cards_8: 4292442982961688979
+      chan_cards_9: -4574405667787641487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
