@@ -110,13 +110,12 @@ public static class CreateHamburgerMenuUI
         var sb4 = AddSubItem(subContainer.transform, btnSprite, "Video mẫu",           ref sy, H_ITEM);
         subContainer.SetActive(false);
 
-        // ── Âm thanh toggle ──────────────────────────────────────────────────
-        AddDivider(panel.transform, ref y);
-        var btnAm = AddItem(panel.transform, btnSprite, "Âm thanh: On", ref y, H_ITEM, 0f, C_TEXT);
-
-        // ── Thoát ─────────────────────────────────────────────────────────────
-        AddDivider(panel.transform, ref y);
-        var btnThoat = AddItem(panel.transform, btnSprite, "Thoát", ref y, H_ITEM, 0f, C_TEXT);
+        // ── Âm thanh + Thoát — anchored from BOTTOM so sub-menu pushes them down ─
+        // From bottom: padding | Thoát | divider | Âm thanh | divider
+        var btnThoat = AddBottomItem(panel.transform, btnSprite, "Thoát",       H_PADDING,                       H_ITEM, C_TEXT);
+        AddBottomDivider(panel.transform,                                        H_PADDING + H_ITEM);
+        var btnAm    = AddBottomItem(panel.transform, btnSprite, "Âm thanh: On", H_PADDING + H_ITEM + H_DIV,     H_ITEM, C_TEXT);
+        AddBottomDivider(panel.transform,                                        H_PADDING + H_ITEM*2 + H_DIV);
 
         // ── Hamburger trigger button (top-right, always visible) ──────────────
         var hamGO = MakeBtn("HamburgerBtn", root, "☰", btnSprite, 28, C_TEXT);
@@ -203,6 +202,31 @@ public static class CreateHamburgerMenuUI
         rt.sizeDelta = new Vector2(0f, H_DIV);
         rt.anchoredPosition = new Vector2(0f, y);
         y -= H_DIV;
+    }
+
+    // Items anchored from the BOTTOM of the panel — stay at bottom as panel grows
+    static GameObject AddBottomItem(Transform parent, Sprite sprite, string label,
+                                    float fromBottom, float h, Color textColor)
+    {
+        var btn = MakeBtn($"Item_{label.Replace(" ","_")}", parent, label, sprite, 22, textColor);
+        var rt  = btn.GetComponent<RectTransform>();
+        rt.anchorMin        = new Vector2(0f, 0f);
+        rt.anchorMax        = new Vector2(1f, 0f);
+        rt.pivot            = new Vector2(0.5f, 0f);
+        rt.sizeDelta        = new Vector2(0f, h);
+        rt.anchoredPosition = new Vector2(0f, fromBottom);
+        return btn;
+    }
+
+    static void AddBottomDivider(Transform parent, float fromBottom)
+    {
+        var go = MakeImage("Divider", parent, C_DIVIDER);
+        var rt = go.GetComponent<RectTransform>();
+        rt.anchorMin        = new Vector2(0.05f, 0f);
+        rt.anchorMax        = new Vector2(0.95f, 0f);
+        rt.pivot            = new Vector2(0.5f, 0f);
+        rt.sizeDelta        = new Vector2(0f, H_DIV);
+        rt.anchoredPosition = new Vector2(0f, fromBottom);
     }
 
     // ── UI primitives ─────────────────────────────────────────────────────────
