@@ -28,9 +28,20 @@ public class HamburgerMenu : MonoBehaviour
 
     void Awake()
     {
+        // Push button down by safe-area top inset (clears notch / Dynamic Island)
+        var hamRT  = GetComponent<RectTransform>();
+        var canvas = GetComponentInParent<Canvas>();
+        if (canvas != null)
+        {
+            float safeTopPx   = Screen.height - Screen.safeArea.yMax;
+            float canvasH     = canvas.GetComponent<RectTransform>().rect.height;
+            float safeTopUnit = safeTopPx * (canvasH / Screen.height);
+            var pos = hamRT.anchoredPosition;
+            pos.y  -= safeTopUnit;
+            hamRT.anchoredPosition = pos;
+        }
+
         _panelW = menuPanel.sizeDelta.x;
-        // Align panel top to ham button bottom edge dynamically
-        var hamRT = GetComponent<RectTransform>();
         _panelY = hamRT.anchoredPosition.y - hamRT.sizeDelta.y;
         menuPanel.anchoredPosition = new Vector2(_panelW, _panelY);
         if (overlay)          overlay.SetActive(false);
