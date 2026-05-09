@@ -42,9 +42,9 @@ public class DayXepBaiController : MonoBehaviour
     const int   DEAL_COUNT = 20;
     const float REF_W  = 390f;
     const float REF_H  = 844f;
-    const float CARD_W = 68f;
-    const float CARD_H = 100f;
-    const float LIFT   = 28f;
+    const float CARD_W = 54f;
+    const float CARD_H = 80f;
+    const float LIFT   = 22f;
 
     // ══════════════════════════════════════════════════════════════════════
     void Start()
@@ -271,8 +271,8 @@ public class DayXepBaiController : MonoBehaviour
 
         var hlg = contentGO.AddComponent<HorizontalLayoutGroup>();
         hlg.childAlignment       = TextAnchor.MiddleCenter;
-        hlg.spacing              = 6f;
-        hlg.padding              = new RectOffset(8, 8, 0, 0);
+        hlg.spacing              = 2f;
+        hlg.padding              = new RectOffset(4, 4, 0, 0);
         hlg.childControlWidth    = false;
         hlg.childControlHeight   = false;
         hlg.childForceExpandWidth  = false;
@@ -411,12 +411,22 @@ public class DayXepBaiController : MonoBehaviour
         else
         {
             img.color = new Color(0.95f, 0.93f, 0.88f);
-            var lbl = MakeTMP("CardLabel", go.transform, $"{data?.rank}\n{data?.type}", 10,
-                              FontStyles.Normal, new Color(0.2f, 0.1f, 0f));
+        }
+
+        // Name label at the top of the card (always shown)
+        if (data != null)
+        {
+            var lbl   = MakeTMP("CardName", go.transform, data.name, 9,
+                                FontStyles.Bold, new Color(0.1f, 0.05f, 0f));
             var lblRT = lbl.GetComponent<RectTransform>();
-            lblRT.anchorMin = Vector2.zero; lblRT.anchorMax = Vector2.one;
-            lblRT.offsetMin = Vector2.zero; lblRT.offsetMax = Vector2.zero;
-            lbl.GetComponent<TMP_Text>().alignment = TextAlignmentOptions.Center;
+            lblRT.anchorMin = new Vector2(0f, 0.78f);
+            lblRT.anchorMax = new Vector2(1f, 1.00f);
+            lblRT.offsetMin = Vector2.zero;
+            lblRT.offsetMax = Vector2.zero;
+            var tmp = lbl.GetComponent<TMP_Text>();
+            tmp.alignment          = TextAlignmentOptions.Center;
+            tmp.enableWordWrapping = true;
+            tmp.raycastTarget      = false;
         }
 
         var btn = go.AddComponent<Button>();
