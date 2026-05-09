@@ -39,6 +39,7 @@ public class DayXepBaiController : MonoBehaviour
     };
 
     // ── Constants ─────────────────────────────────────────────────────────
+    const int   DEAL_COUNT = 20;
     const float REF_W  = 390f;
     const float REF_H  = 844f;
     const float CARD_W = 68f;
@@ -350,7 +351,7 @@ public class DayXepBaiController : MonoBehaviour
 
     void Deal()
     {
-        if (fullDeck == null || fullDeck.cards == null || fullDeck.cards.Count < 10)
+        if (fullDeck == null || fullDeck.cards == null || fullDeck.cards.Count < DEAL_COUNT)
         {
             Debug.LogError("[DayXepBai] fullDeck not assigned or not enough cards!");
             return;
@@ -360,10 +361,9 @@ public class DayXepBaiController : MonoBehaviour
         _hand.Clear();
         for (int z = 0; z < 3; z++) _zoneCards[z].Clear();
 
-        // Pick 10 random cards
         var pool = new List<CardData>(fullDeck.cards);
         Shuffle(pool);
-        _hand = pool.GetRange(0, Mathf.Min(10, pool.Count));
+        _hand = pool.GetRange(0, Mathf.Min(DEAL_COUNT, pool.Count));
 
         RebuildHandUI();
         RebuildAllZoneUIs();
