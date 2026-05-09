@@ -128,6 +128,8 @@ public class HamburgerMenu : MonoBehaviour
         UpdateAudioLabel();
     }
 
+    public void OnThuChonBai() { Close(); SceneManager.LoadScene("day_xep_bai"); }
+
     public void OnThoat()
     {
 #if UNITY_EDITOR

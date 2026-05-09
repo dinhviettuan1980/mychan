@@ -13,8 +13,8 @@ public static class CreateHamburgerMenuUI
     const float H_PADDING = 12f;
     const float INDENT    = 16f;
 
-    // collapsed = header + 3 items + 3 dividers + huong dan row + 2 dividers + 2 items + padding
-    const float H_COLLAPSED = H_HEADER + H_ITEM*3 + H_DIV*3 + H_ITEM + H_DIV*2 + H_ITEM*2 + H_PADDING;
+    // collapsed = header + 4 items + 4 dividers + huong dan row + 2 dividers + 2 items + padding
+    const float H_COLLAPSED = H_HEADER + H_ITEM*4 + H_DIV*4 + H_ITEM + H_DIV*2 + H_ITEM*2 + H_PADDING;
     // expanded  = collapsed + 4 sub-items
     const float H_EXPANDED  = H_COLLAPSED + H_ITEM * 4;
 
@@ -69,11 +69,13 @@ public static class CreateHamburgerMenuUI
         // ── Items layout (y goes downward from top of panel) ──────────────────
         float y = -H_HEADER;
 
-        var btn1 = AddItem(panel.transform, btnSprite, "Thử lại",    ref y, H_ITEM, 0f, C_TEXT);
+        var btn1 = AddItem(panel.transform, btnSprite, "Thử lại",       ref y, H_ITEM, 0f, C_TEXT);
         AddDivider(panel.transform, ref y);
-        var btn2 = AddItem(panel.transform, btnSprite, "Xếp chuẩn",  ref y, H_ITEM, 0f, C_TEXT);
+        var btn2 = AddItem(panel.transform, btnSprite, "Xếp chuẩn",    ref y, H_ITEM, 0f, C_TEXT);
         AddDivider(panel.transform, ref y);
-        var btn3 = AddItem(panel.transform, btnSprite, "Kiểm tra",   ref y, H_ITEM, 0f, C_TEXT);
+        var btn3 = AddItem(panel.transform, btnSprite, "Kiểm tra",     ref y, H_ITEM, 0f, C_TEXT);
+        AddDivider(panel.transform, ref y);
+        var btn4 = AddItem(panel.transform, btnSprite, "Thủ chọn bài", ref y, H_ITEM, 0f, C_TEXT);
         AddDivider(panel.transform, ref y);
 
         // ── Hướng dẫn toggle row ─────────────────────────────────────────────
@@ -146,6 +148,7 @@ public static class CreateHamburgerMenuUI
         Wire(btn1.GetComponent<Button>(), hm, "OnThuLai");
         Wire(btn2.GetComponent<Button>(), hm, "OnXepChuan");
         Wire(btn3.GetComponent<Button>(), hm, "OnKiemTra");
+        Wire(btn4.GetComponent<Button>(), hm, "OnThuChonBai");
         Wire(hdBtn.GetComponent<Button>(), hm, "ToggleHuongDan");
         Wire(sb1.GetComponent<Button>(), hm, "OnCachXep");
         Wire(sb2.GetComponent<Button>(), hm, "OnCachNho");
