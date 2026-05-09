@@ -17,7 +17,15 @@ public static class CreateDayXepBaiScene
         esGO.AddComponent<EventSystem>();
         esGO.AddComponent<StandaloneInputModule>();
 
-        // 3. DayXepBaiGame object + controller
+        // 3. Camera (required even with ScreenSpaceOverlay canvas)
+        var camGO = new GameObject("Main Camera");
+        camGO.tag = "MainCamera";
+        var cam = camGO.AddComponent<Camera>();
+        cam.clearFlags = CameraClearFlags.SolidColor;
+        cam.backgroundColor = new Color(0.2f, 0.2f, 0.2f);
+        cam.orthographic = true;
+
+        // 4. DayXepBaiGame object + controller
         var gameGO = new GameObject("DayXepBaiGame");
         var controller = gameGO.AddComponent<DayXepBaiController>();
 
