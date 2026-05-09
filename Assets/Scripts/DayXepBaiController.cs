@@ -385,21 +385,41 @@ public class DayXepBaiController : MonoBehaviour
 
     GameObject BuildCardGO(CardData data, Transform parent, int idx)
     {
+        const float NAME_H  = 18f;   // label height
+        const float NAME_GAP = 50f;  // gap between label bottom and card top
+
         // Outer container — HorizontalLayoutGroup positions this, we never move it
         var container = new GameObject($"HandCard_{idx}", typeof(RectTransform));
         container.transform.SetParent(parent, false);
         var cRT = container.GetComponent<RectTransform>();
-        cRT.sizeDelta = new Vector2(CARD_W, CARD_H + LIFT); // extra height so lift has room
+        cRT.sizeDelta = new Vector2(CARD_W, NAME_H + NAME_GAP + CARD_H + LIFT);
 
-        // Inner card image — this is what moves up/down on selection
+        // Name label — sits at the very top of the container
+        if (data != null)
+        {
+            var lbl   = MakeTMP("CardName", container.transform, data.name, 9,
+                                FontStyles.Bold, new Color(0.1f, 0.05f, 0f));
+            var lblRT = lbl.GetComponent<RectTransform>();
+            lblRT.anchorMin        = new Vector2(0f, 1f);
+            lblRT.anchorMax        = new Vector2(1f, 1f);
+            lblRT.pivot            = new Vector2(0.5f, 1f);
+            lblRT.sizeDelta        = new Vector2(0f, NAME_H);
+            lblRT.anchoredPosition = Vector2.zero;
+            var tmp = lbl.GetComponent<TMP_Text>();
+            tmp.alignment          = TextAlignmentOptions.Center;
+            tmp.enableWordWrapping = true;
+            tmp.raycastTarget      = false;
+        }
+
+        // Inner card image — sits at bottom of container, moves up on selection
         var go  = new GameObject("Card", typeof(RectTransform));
         go.transform.SetParent(container.transform, false);
         var rt = go.GetComponent<RectTransform>();
-        rt.anchorMin = Vector2.zero;
-        rt.anchorMax = Vector2.zero;
-        rt.pivot     = new Vector2(0.5f, 0f);
+        rt.anchorMin        = Vector2.zero;
+        rt.anchorMax        = Vector2.zero;
+        rt.pivot            = new Vector2(0.5f, 0f);
         rt.sizeDelta        = new Vector2(CARD_W, CARD_H);
-        rt.anchoredPosition = new Vector2(CARD_W * 0.5f, 0f); // sit at bottom of container
+        rt.anchoredPosition = new Vector2(CARD_W * 0.5f, 0f);
 
         var img = go.AddComponent<Image>();
         if (data != null && data.image != null)
@@ -411,22 +431,6 @@ public class DayXepBaiController : MonoBehaviour
         else
         {
             img.color = new Color(0.95f, 0.93f, 0.88f);
-        }
-
-        // Name label at the top of the card (always shown)
-        if (data != null)
-        {
-            var lbl   = MakeTMP("CardName", go.transform, data.name, 9,
-                                FontStyles.Bold, new Color(0.1f, 0.05f, 0f));
-            var lblRT = lbl.GetComponent<RectTransform>();
-            lblRT.anchorMin = new Vector2(0f, 0.78f);
-            lblRT.anchorMax = new Vector2(1f, 1.00f);
-            lblRT.offsetMin = Vector2.zero;
-            lblRT.offsetMax = Vector2.zero;
-            var tmp = lbl.GetComponent<TMP_Text>();
-            tmp.alignment          = TextAlignmentOptions.Center;
-            tmp.enableWordWrapping = true;
-            tmp.raycastTarget      = false;
         }
 
         var btn = go.AddComponent<Button>();
