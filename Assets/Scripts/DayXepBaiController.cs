@@ -386,7 +386,7 @@ public class DayXepBaiController : MonoBehaviour
     GameObject BuildCardGO(CardData data, Transform parent, int idx)
     {
         const float NAME_H  = 18f;   // label height
-        const float NAME_GAP = 50f;  // gap between label bottom and card top
+        const float NAME_GAP = 10f;  // gap between label bottom and card top
 
         // Outer container — HorizontalLayoutGroup positions this, we never move it
         var container = new GameObject($"HandCard_{idx}", typeof(RectTransform));
