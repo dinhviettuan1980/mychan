@@ -46,7 +46,7 @@ public class HamburgerMenu : MonoBehaviour
         }
 
         _panelW = menuPanel.sizeDelta.x;
-        _panelY = hamRT.anchoredPosition.y - hamRT.sizeDelta.y;
+        _panelY = hamRT.anchoredPosition.y - hamRT.sizeDelta.y + 50;
         menuPanel.anchoredPosition = new Vector2(_panelW, _panelY);
         if (overlay)          overlay.SetActive(false);
         if (subMenuContainer) subMenuContainer.SetActive(false);

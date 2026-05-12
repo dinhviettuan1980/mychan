@@ -127,7 +127,7 @@ public static class CreateHamburgerMenuUI
         hamRT.anchorMin = hamRT.anchorMax = new Vector2(1f, 1f);
         hamRT.pivot     = new Vector2(1f, 1f);
         hamRT.sizeDelta = new Vector2(68f, 68f);
-        hamRT.anchoredPosition = new Vector2(-10f, -10f);
+        hamRT.anchoredPosition = new Vector2(-10f, -40f);
 
         // ── Wire HamburgerMenu component ──────────────────────────────────────
         var hm = hamGO.AddComponent<HamburgerMenu>();
