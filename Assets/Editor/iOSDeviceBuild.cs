@@ -19,7 +19,7 @@ public class iOSDeviceBuild
         BuildPlayerOptions opts = new BuildPlayerOptions
         {
             scenes            = scenes,
-            locationPathName  = "/tmp/MyChanBuild",
+            locationPathName  = "IOS",
             target            = BuildTarget.iOS,
             options           = BuildOptions.None
         };
